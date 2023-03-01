@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Renato Vuk" />
+    <title>Artist search API</title>
+    <script defer src="./script.js"></script>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <table>
+      <thead>
+        <tr>
+          <th colspan="2"><h1>Artist search API</h1></th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>
+            <div>
+              <form id="form">
+                <label for="input"></label>
+                <input
+                  type="text"
+                  id="input"
+                  placeholder="Upišite ime izvođača"
+                />
+                <div id="buttonContainer">
+                  <input type="button" id="button" value="GO" />
+                  <input type="button" id="cancelButton" value="Poništi" />
+                </div>
+              </form>
+            </div>
+          </td>
+          <td id="results"></td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>
